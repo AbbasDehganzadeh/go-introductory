@@ -3,8 +3,11 @@ module basic_scraping
 go 1.18
 
 require (
-	github.com/gocolly/colly v1.2.0 // indirect
-	github.com/joho/godotenv v1.5.1 // indirect
+	github.com/gocolly/colly v1.2.0
+	github.com/joho/godotenv v1.5.1
+)
+
+require (
 	github.com/PuerkitoBio/goquery v1.8.0 // indirect
 	github.com/andybalholm/cascadia v1.3.2 // indirect
 	github.com/antchfx/htmlquery v1.3.3 // indirect
